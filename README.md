@@ -12,13 +12,13 @@ SQL pada home code dedngan: aptavis.sql
 Tampilan Aplikasi
 
 1. Profile Developer
-![image.png]( {https://socialclimb.id/img1.png} )
+![img1](https://github.com/ridwanokimmm/AptivisSoccerLeague/assets/34051898/3d391194-fa5c-48e2-94b5-3f16db531002)
 
 2. Tambah Data Klub
-![image.png]( {https://socialclimb.id/img2.png} )
+![img2](https://github.com/ridwanokimmm/AptivisSoccerLeague/assets/34051898/569dbda5-d868-4e45-9598-7105e6e95dfe)
 
 3. Tambah Data Skor
-![image.png]( {https://socialclimb.id/img3.png} )
+![img3](https://github.com/ridwanokimmm/AptivisSoccerLeague/assets/34051898/3a4b2387-f454-449a-9a69-b310a8ac75e6)
 
 4. Lihat Klasemen
-![image.png]( {https://socialclimb.id/img4.png} )
+![img4](https://github.com/ridwanokimmm/AptivisSoccerLeague/assets/34051898/b84bb4f8-e87f-4c60-bbdf-4027015db51f)
