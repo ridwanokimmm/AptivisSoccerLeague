@@ -1,0 +1,289 @@
+/*-------- 1.3 Structure --------*/
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999;
+  }
+  
+  [data-loader="circle-side"] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    -webkit-animation: circle infinite .95s linear;
+    -moz-animation: circle infinite .95s linear;
+    -o-animation: circle infinite .95s linear;
+    animation: circle infinite .95s linear;
+    border: 2px solid #333;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+  }
+  
+  #loader_form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 999999;
+    display: none;
+  }
+  
+  [data-loader="circle-side-2"] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    -webkit-animation: circle infinite .95s linear;
+    -moz-animation: circle infinite .95s linear;
+    -o-animation: circle infinite .95s linear;
+    animation: circle infinite .95s linear;
+    border: 2px solid #333;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+  }
+  
+  @-webkit-keyframes circle {
+    0% {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes circle {
+    0% {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes circle {
+    0% {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes circle {
+    0% {
+      -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .row-height {
+    height: 100vh;
+  }
+  @media (max-width: 991px) {
+    .row-height {
+      height: auto;
+    }
+  }
+  
+  .content-left {
+    background-color: #1e88e5;
+    padding: 0;
+  }
+  
+  .content-left-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100%;
+    padding: 60px 60px 35px 60px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  @media (max-width: 991px) {
+    .content-left-wrapper {
+      height: auto;
+      padding: 95px 30px 35px 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    .content-left-wrapper {
+      padding: 95px 15px 35px 15px;
+    }
+  }
+  @media (max-width: 991px) {
+    .content-left-wrapper figure img {
+      height: 200px;
+    }
+  }
+  .content-left-wrapper h2 {
+    color: #fff;
+    font-size: 32px;
+    font-size: 2rem;
+    margin: 20px 0 15px 0;
+    font-weight: 600;
+  }
+  @media (max-width: 767px) {
+    .content-left-wrapper h2 {
+      font-size: 26px;
+      font-size: 1.625rem;
+    }
+  }
+  .content-left-wrapper p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  @media (max-width: 767px) {
+    .content-left-wrapper p {
+      font-size: 14px;
+      font-size: 0.875rem;
+    }
+  }
+  .content-left-wrapper .copy {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .content-left-wrapper .btn_1 {
+    margin: 25px 0 25px 0;
+  }
+  @media (max-width: 991px) {
+    .content-left-wrapper .btn_1 {
+      display: none;
+    }
+  }
+  .content-left-wrapper .btn_1.mobile_btn {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    .content-left-wrapper .btn_1.mobile_btn {
+      margin: 5px 0 30px 0;
+      display: inline-block;
+    }
+  }
+  
+  .content-right {
+    padding: 60px;
+    height: 100%;
+    min-height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 991px) {
+    .content-right {
+      height: auto;
+      padding: 30px 15px;
+    }
+  }
+  
+  a#logo {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    display: block;
+    height: 35px;
+  }
+  @media (max-width: 991px) {
+    a#logo {
+      left: 15px;
+      top: 10px;
+    }
+  }
+  
+  #social {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  @media (max-width: 991px) {
+    #social {
+      right: 70px;
+    }
+  }
+  #social ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #social ul li {
+    float: left;
+    margin: 0 5px 10px 0;
+    list-style: none;
+  }
+  #social ul li a {
+    color: #fff;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 35px;
+    display: block;
+    font-size: 16px;
+    font-size: 1rem;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #social ul li a:hover {
+    opacity: 1;
+  }
+  
+  .copy {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+  }
+  @media (max-width: 991px) {
+    .copy {
+      display: none;
+    }
+  }
