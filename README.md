@@ -1,4 +1,4 @@
-# AptivisSoccerLeague
+# Aptavis Soccer League
 TES KEBIDANGAN
 
 Nama: Ridwan Ramadhan
